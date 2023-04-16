@@ -28,3 +28,8 @@ input[type="text"]{
     margin-bottom: 10px;
     background-color: yellow;
 }
+input[type="button"]{
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+}
