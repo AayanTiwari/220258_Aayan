@@ -19,3 +19,12 @@ a:hover{
 a:active{
     color: #0000ff;
 }
+p::first-letter{
+    color: #000000;
+}
+input[type="text"]{
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
