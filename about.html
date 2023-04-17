@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        h1{
+            font-size: 35px;
+            color: blue;
+        }
+        .about-me::first-letter{
+            color: red;
+        }
+        h2{
+            font-size: 35px;
+        }
+        body{
+            background-color: gray;
+            text-align: center;
+        }
+        input[type="button"]{
+            padding: 1%;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p class="about-me">
+        I am Brian Smith. I've served in the navy for 10 years.
+        Currently I live in Chicago. My hobbies include hiking and cycling.
+        I also have knowledge about cars and work in my home garage repairing my project cars.
+    </p>
+    <form>
+        <h2>Contact</h2>
+        Name<br>
+        <input type="text" required><br>
+        Email<br>
+        <input type="email" required><br>
+        Number<br>
+        <input type="tel" required><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
