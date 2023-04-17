@@ -1,12 +1,3 @@
-p{
- color: blue;   
-}
-#second{
-    color: red;
-}
-.third{
-    color: brown;
-}
 a:link{
     color: #ff0000;
 }
@@ -19,9 +10,7 @@ a:hover{
 a:active{
     color: #0000ff;
 }
-p::first-letter{
-    color: #000000;
-}
+
 input[type="text"]{
     width: 150px;
     display: block;
@@ -36,4 +25,16 @@ input[type="button"]{
 .main-div h1{
     background-color: orange;
     color: white;
+}
+p{
+    color: green;
+}
+p{
+    color: blue !important;
+}
+#test1{
+    color: yellow;
+}
+.test{
+    color: bisque;
 }
