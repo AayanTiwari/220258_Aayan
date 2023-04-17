@@ -1,40 +1,4 @@
-a:link{
-    color: #ff0000;
-}
-a:visited{
-    color: #00ff00;
-}
-a:hover{
-    color:#ff00ff
-}
-a:active{
-    color: #0000ff;
-}
-
-input[type="text"]{
-    width: 150px;
-    display: block;
-    margin-bottom: 10px;
-    background-color: yellow;
-}
-input[type="button"]{
-    width: 120px;
-    margin-left: 35px;
-    display: block;
-}
-.main-div h1{
-    background-color: orange;
-    color: white;
-}
-p{
-    color: green;
-}
-p{
-    color: blue !important;
-}
-#test1{
-    color: yellow;
-}
-.test{
-    color: bisque;
+.box{
+    margin: 10px;
+    border: 1px solid black;
 }
