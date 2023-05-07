@@ -9,59 +9,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: content-box;
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
-        h1{
-            font-size: 35px;
-            color: blue;
-            font-family: 'Bruno Ace', cursive;
-            font-size: 50px;
-            font-weight: 100;
-            font-style: italic;
-        }
-        .about-me::first-letter{
-            color: red;
-        }
-        h2{
-            font-size: 35px;
-        }
-        body{
-            background-color: gray;
-            text-align: center;
-        }
-        input[type="button"]{
-            padding: 1%;
-            margin: 1%;
-        }
-        p{
-            display: block;
-            margin: 1%;
-            padding: 2%;
-            font-family: 'Bruno Ace', cursive;
-            font-size: 16px;
-            background-image: linear-gradient(orange,yellow);
+        .item{
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>About Us</h1>
-    <p class="about-me">
-        I am Brian Smith. I've served in the navy for 10 years.
-        Currently I live in Chicago. My hobbies include hiking and cycling.
-        I also have knowledge about cars and work in my home garage repairing my project cars.
-    </p>
-    <form>
-        <h2>Contact</h2>
-        Name<br>
-        <input type="text" required><br>
-        Email<br>
-        <input type="email" required><br>
-        Number<br>
-        <input type="tel" required><br>
-        <input type="button" value="Submit">
-    </form>
+    <nav>
+        <div class="container">
+            <div class="item">
+                Div1
+            </div>
+            <div class="item">
+                Div2
+            </div>
+            <div class="item">
+                Div3
+            </div>
+            <div class="item">
+                Div4
+            </div>
+            <div class="item">
+                Div5
+            </div>
+            <div class="item">
+                Div6
+            </div>
+            <div class="item">
+                Div7
+            </div>
+            <div class="item">
+                Div8
+            </div>
+            <div class="item">
+                Div9
+            </div>
+            <div class="item">
+                Div10
+            </div>
+        </div>
 </body>
 </html>
