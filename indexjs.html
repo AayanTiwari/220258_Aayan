@@ -7,13 +7,16 @@
     <title>Document</title>
     <script src="./script.js"></script>
     <script>
-        function myFunction(){
-            document.getElementById("para1").innerHTML="Hello";
+        function myFunction(a,b){
+            return a+b;
+        }
+        function change(){
+            document.getElementById("para1").innerHTML=myFunction(12,8);
         }
     </script>
 </head>
 <body>
-    <button onclick="myFunction()">Add paragraph</button>
+    <button onclick="change()">Add paragraph</button>
     <button onclick="alert1()">Alert</button>
     <p id="para1"></p>
 </body>
