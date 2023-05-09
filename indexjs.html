@@ -8,12 +8,13 @@
     <script src="./script.js"></script>
     <script>
         function myFunction(){
-            console.log("Button clicked");
+            document.getElementById("para1").innerHTML="Hello";
         }
     </script>
 </head>
 <body>
-    <button onclick="myFunction()">Click here!</button>
+    <button onclick="myFunction()">Add paragraph</button>
     <button onclick="alert1()">Alert</button>
+    <p id="para1"></p>
 </body>
 </html>
