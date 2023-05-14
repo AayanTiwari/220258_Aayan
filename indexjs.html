@@ -10,7 +10,11 @@
         function myFunction(){
             var number=prompt("Enter a number:");
             number=parseInt(number);
-            (number>0)?alert('Positive'):alert('Negative');
+            var factorial=1;
+            for(var i=1;i<=number;i++){
+                factorial*=i;
+            }
+            document.write("The factorial of "+ number + " is: "+ factorial);
             }
     </script>
 </head>
